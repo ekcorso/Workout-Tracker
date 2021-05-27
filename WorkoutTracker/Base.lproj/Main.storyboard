@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="VuH-rL-pbM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="fIR-eo-54t">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -9,94 +9,6 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Plate Count View Controller-->
-        <scene sceneID="tne-QT-ifu">
-            <objects>
-                <viewController id="BYZ-38-t0r" customClass="PlateCountViewController" customModule="BarbellMath" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="74" translatesAutoresizingMaskIntoConstraints="NO" id="xqS-OG-ZRP">
-                                <rect key="frame" x="47" y="201.5" width="320.5" height="493"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Here's what you'll need to load a 45lb bar:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hZ1-6T-Tny">
-                                        <rect key="frame" x="0.0" y="0.0" width="320.5" height="20.5"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="45lb Plates" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bod-y9-QC2">
-                                        <rect key="frame" x="117.5" y="94.5" width="85.5" height="20.5"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="25lb Plates" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kh0-lb-hdR">
-                                        <rect key="frame" x="117.5" y="189" width="85" height="20.5"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10lb Plates" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mBU-pD-U2t">
-                                        <rect key="frame" x="118.5" y="283.5" width="83" height="20.5"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5lb Plates" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pPf-vF-FeR">
-                                        <rect key="frame" x="122.5" y="378" width="75" height="20.5"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2.5lb Plates" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DcY-2n-8fr">
-                                        <rect key="frame" x="115.5" y="472.5" width="89" height="20.5"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                            </stackView>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="xqS-OG-ZRP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dMP-wz-LCC"/>
-                            <constraint firstItem="xqS-OG-ZRP" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="dMW-g9-kf5"/>
-                        </constraints>
-                    </view>
-                    <navigationItem key="navigationItem" id="mdC-Zy-ZsT"/>
-                    <connections>
-                        <outlet property="text10LbPlates" destination="mBU-pD-U2t" id="V4m-4C-CS1"/>
-                        <outlet property="text25LbPlates" destination="kh0-lb-hdR" id="guy-ct-CeJ"/>
-                        <outlet property="text2_5LbPlates" destination="DcY-2n-8fr" id="JWf-m7-XNI"/>
-                        <outlet property="text45LbPlates" destination="bod-y9-QC2" id="BNp-Vr-5wl"/>
-                        <outlet property="text5LbPlates" destination="pPf-vF-FeR" id="Ezj-CP-GSr"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3778" y="866"/>
-        </scene>
-        <!--Tab Bar Controller-->
-        <scene sceneID="Lnj-V8-dm0">
-            <objects>
-                <tabBarController id="VuH-rL-pbM" sceneMemberID="viewController">
-                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Ica-GB-H2f">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    </tabBar>
-                    <connections>
-                        <segue destination="fIR-eo-54t" kind="relationship" relationship="viewControllers" id="nXU-lt-N2I"/>
-                        <segue destination="qSV-Do-blm" kind="relationship" relationship="viewControllers" id="mfg-DZ-eJn"/>
-                    </connections>
-                </tabBarController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="1Yq-NV-8OJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3293" y="-658"/>
-        </scene>
         <!--Workout Tracker-->
         <scene sceneID="CJx-s0-z8K">
             <objects>
@@ -119,7 +31,7 @@
         <!--Workout Tracker View Controller-->
         <scene sceneID="wMs-si-fAj">
             <objects>
-                <tableViewController id="5R0-20-nts" customClass="WorkoutTrackerViewController" customModule="BarbellMath" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="5R0-20-nts" customClass="WorkoutTrackerViewController" customModule="WorkoutTracker" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="AbP-DR-0yh">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -171,7 +83,7 @@
         <!--Exercise Details-->
         <scene sceneID="quc-gZ-au8">
             <objects>
-                <tableViewController id="PZT-PU-7dd" customClass="ExerciseDetailViewController" customModule="BarbellMath" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="PZT-PU-7dd" customClass="ExerciseDetailViewController" customModule="WorkoutTracker" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="cEu-dU-WUO">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -305,7 +217,7 @@
         <!--Set Picker View Controller-->
         <scene sceneID="h7t-vw-FG2">
             <objects>
-                <viewController id="EYC-xN-Ocv" customClass="SetPickerViewController" customModule="BarbellMath" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="EYC-xN-Ocv" customClass="SetPickerViewController" customModule="WorkoutTracker" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Zsj-Ji-CkK">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -336,7 +248,7 @@
         <!--Rep Picker View Controller-->
         <scene sceneID="ldu-k0-CX8">
             <objects>
-                <viewController id="Sx3-K1-Lkr" customClass="RepPickerViewController" customModule="BarbellMath" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Sx3-K1-Lkr" customClass="RepPickerViewController" customModule="WorkoutTracker" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Uat-3m-4cK">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -363,25 +275,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="B5D-KK-Uy2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3880" y="2330"/>
-        </scene>
-        <!--Plate Calculator-->
-        <scene sceneID="Ky0-53-f4y">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="qSV-Do-blm" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Plate Calculator" image="number.square.fill" catalog="system" id="5Qp-95-4EC"/>
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="nxN-Lk-NEe">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Cim-do-FBM"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="0Nf-hs-tyi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3778.2608695652175" y="116.51785714285714"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="NwD-BP-sZv">
@@ -411,7 +304,6 @@
     </scenes>
     <resources>
         <image name="calendar" catalog="system" width="128" height="106"/>
-        <image name="number.square.fill" catalog="system" width="128" height="114"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
